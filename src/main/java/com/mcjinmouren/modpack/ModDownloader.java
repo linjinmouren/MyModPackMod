@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class ModDownloader {
-
+/*
     @SubscribeEvent
     public void onCommonSetup(FMLCommonSetupEvent event){
         if (ModPackConfig.enableFastLinkForChina){
@@ -30,5 +30,5 @@ public class ModDownloader {
             }
         }
     }
-
+*/
 }
