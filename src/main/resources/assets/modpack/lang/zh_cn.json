@@ -1,0 +1,9 @@
+{
+  "item.modpack.cant_crafting": "无法合成",
+  "item.modpack.cast_iron": "铸铁锭",
+  "item.modpack.cast_iron_plate": "铸铁板",
+  "item.modpack.swap_core": "转化核心",
+  "item.modpack.upgrade_core": "升级核心",
+  "modpack.creativetab.mod_tab": "整合包物品",
+  "modpack.error_createfile": "无法创建文件"
+}

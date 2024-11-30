@@ -1,0 +1,44 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "steampowered"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "CCC",
+          "EUF",
+          "CCC"
+        ],
+        "key": {
+          "F": {
+            "item": "steampowered:steel_flywheel"
+          },
+          "E": {
+            "item": "steampowered:steel_steam_engine"
+          },
+          "U": {
+            "item": "modpack:upgrade_core"
+          },
+          "C": {
+            "item": "minecraft:copper_ingot"
+          }
+        },
+        "result": {
+          "item": "create:steam_engine",
+          "count": 6
+        }
+      }
+    }
+  ]
+}
+  

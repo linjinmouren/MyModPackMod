@@ -1,0 +1,25 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fluxnetworks"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "fluxnetworks:flux_block"
+          }
+        ],
+        "result": {
+          "item": "fluxnetworks:flux_core",
+          "count": 9
+        }
+      }
+    }
+  ]
+}

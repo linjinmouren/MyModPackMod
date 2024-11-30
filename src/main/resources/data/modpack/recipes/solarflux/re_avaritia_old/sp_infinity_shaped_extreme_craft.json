@@ -1,0 +1,60 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "avaritia"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "solarflux"
+        }
+      ],
+      "recipe": {
+        "type": "avaritia:shaped_extreme_craft",
+        "category": "equipment",
+        "key": {
+          "C": {
+            "item": "avaritia:crystal_matrix_ingot"
+          },
+          "N": {
+            "item": "avaritia:neutron_ingot"
+          },
+          "B": {
+            "item": "avaritia:neutron"
+          },
+          "S": {
+            "item": "avaritia:neutron_nugget"
+          },
+          "P": {
+            "item": "avaritia:neutron_pile"
+          },
+          "A": {
+            "item": "solarflux:sp_avaritia.neutronium"
+          },
+          "I": {
+            "item": "avaritia:infinity_ingot"
+          }
+        },
+        "pattern": [
+          "  NN NN  ",
+          " NCCBCCN ",
+          "NC  S  CN",
+          "NC PIP CN",
+          " BSIAISB ",
+          "NC PIP CN",
+          "NC  S  CN",
+          " NCCBCCN ",
+          "  NN NN  "
+        ],
+        "result": {
+          "item": "solarflux:sp_avaritia.infinity",
+          "count": 3
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

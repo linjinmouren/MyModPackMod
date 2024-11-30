@@ -1,0 +1,51 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "steampowered"
+        }
+      ],
+      "recipe":
+      {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          "PCB",
+          "PLI",
+          "PCB"
+        ],
+        "key": {
+          "P": {
+            "tag": "forge:plates/steel"
+          },
+          "B": {
+            "tag": "forge:ingots/steel"
+          },
+          "I": [
+            {
+              "item": "minecraft:piston"
+            },
+            {
+              "item": "minecraft:sticky_piston"
+            }
+          ],
+          "C": {
+            "item": "create:fluid_pipe"
+          },
+          "L": {
+            "item": "steampowered:cast_iron_steam_engine"
+          }
+        },
+        "result": {
+          "item": "steampowered:steel_steam_engine"
+        }
+      }
+    }
+  ]
+}

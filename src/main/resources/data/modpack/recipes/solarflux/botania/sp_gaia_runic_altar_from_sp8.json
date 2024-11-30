@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "solarflux"
+        }
+      ],
+      "recipe": {
+        "type": "botania:runic_altar",
+        "ingredients": [
+          {
+            "item": "solarflux:sp_8"
+          },
+          {
+            "item": "botania:terrasteel_ingot"
+          },
+          {
+            "item": "botania:terrasteel_ingot"
+          },
+          {
+            "item": "botania:gaia_ingot"
+          }
+        ],
+        "mana": 100000,
+        "output": {
+          "item": "solarflux:sp_custom_botania.gaia"
+        }
+      }
+    }
+  ]
+}

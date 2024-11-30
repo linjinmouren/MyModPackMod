@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "steampowered"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "SSS",
+          "SLS",
+          "CCC"
+        ],
+        "key": {
+          "S": {
+            "tag": "forge:plates/steel"
+          },
+          "C": {
+            "item": "minecraft:bricks"
+          },
+          "L": {
+            "item": "steampowered:cast_iron_burner"
+          }
+        },
+        "result": {
+          "item": "steampowered:steel_burner",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "steampowered"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "SSS",
+          "SCS",
+          "SSS"
+        ],
+        "key": {
+          "S": {
+            "item": "modpack:cast_iron"
+          },
+          "C": {
+            "item": "create:andesite_alloy"
+          }
+        },
+        "result": {
+          "item": "steampowered:cast_iron_cogwheel",
+          "count": 8
+        }
+      }
+    }
+  ]
+}
+

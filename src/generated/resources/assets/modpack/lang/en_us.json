@@ -1,0 +1,10 @@
+{
+  "item.modpack.cant_crafting": "Can't Crafting",
+  "item.modpack.cast_iron": "Cast Iron Ingot",
+  "item.modpack.cast_iron_plate": "Cast Iron Plate",
+  "item.modpack.swap_core": "Swap Core",
+  "item.modpack.upgrade_core": "Upgrade Core",
+  "modpack.config.enableFluxNetworksRecipe": "Enable Flux Networks Recipe",
+  "modpack.creativetab.mod_tab": "Modpack Items",
+  "modpack.error_createfile": "Unable to create file"
+}

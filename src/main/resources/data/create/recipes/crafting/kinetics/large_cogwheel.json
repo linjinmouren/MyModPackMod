@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "steampowered:bronze_large_cogwheel"
+    }
+  ],
+  "result": {
+    "item": "create:large_cogwheel"
+  }
+}

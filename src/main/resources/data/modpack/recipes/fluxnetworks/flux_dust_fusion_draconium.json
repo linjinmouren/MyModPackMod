@@ -1,0 +1,51 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "draconicevolution"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fluxnetworks"
+        }
+      ],
+      "recipe": {
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+          "type": "draconicevolution:ingredient_stack",
+          "count": 4,
+          "items": [
+            {
+              "item": "minecraft:redstone"
+            }
+          ]
+        },
+        "ingredients": [
+          {
+            "tag": "forge:dusts/obsidian"
+          },
+          {
+            "tag": "forge:dusts/obsidian"
+          },
+          {
+            "item": "minecraft:gold_ingot"
+          },
+          {
+            "item": "minecraft:gold_ingot"
+          }
+        ],
+        "result": {
+          "item": "fluxnetworks:flux_dust",
+          "count": 4
+        },
+        "tier": "DRACONIUM",
+        "total_energy": 3000
+      }
+    }
+  ]
+}
+
+

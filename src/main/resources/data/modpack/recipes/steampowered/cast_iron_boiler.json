@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "steampowered"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "SSS",
+          "SLS",
+          "SCS"
+        ],
+        "key": {
+          "S": {
+            "item": "modpack:cast_iron_plate"
+          },
+          "C": {
+            "item": "create:fluid_pipe"
+          },
+          "L":{
+            "item": "steampowered:bronze_boiler"
+          }
+        },
+        "result": {
+          "item": "steampowered:cast_iron_boiler",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

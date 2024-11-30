@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "steampowered"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " D ",
+          "SES",
+          " D "
+        ],
+        "key": {
+          "D": {
+            "item": "minecraft:piston"
+          },
+          "S": {
+            "item": "create:railway_casing"
+          },
+          "E": {
+            "item": "createutilities:void_casing"
+          }
+        },
+        "result": {
+          "item": "create:mechanical_piston"
+        }
+      }
+    }
+  ]
+}
+  

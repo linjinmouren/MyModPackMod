@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "solarflux"
+        }
+      ],
+      "recipe": {
+        "type": "botania:terra_plate",
+        "ingredients": [
+          {
+            "item": "solarflux:sp_custom_botania.elementium"
+          },
+          {
+            "item": "solarflux:sp_custom_botania.elementium"
+          },
+          {
+            "item": "botania:terrasteel_ingot"
+          }
+        ],
+        "mana": 250000,
+        "result": {
+          "item": "solarflux:sp_custom_botania.terrasteel"
+        }
+      }
+    }
+  ]
+}
+

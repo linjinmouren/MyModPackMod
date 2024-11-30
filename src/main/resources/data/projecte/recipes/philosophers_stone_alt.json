@@ -1,0 +1,35 @@
+{
+    "type": "forge:conditional",
+    "recipes":[
+      {
+        "conditions": [
+          {
+            "type": "forge:mod_loaded",
+            "modid": "remove"
+          }
+        ],
+        "recipe": {
+          "type": "botania:terra_plate",
+          "ingredients": [
+            {
+              "item": "botania:terrasteel_ingot"
+            },
+            {
+              "item": "botania:terrasteel_ingot"
+            },
+            {
+              "item": "botania:rune_sloth"
+            },
+            {
+              "item": "botania:rune_lust"
+            }
+          ],
+          "mana": 500000,
+          "result": {
+            "item": "projecte:philosophers_stone"
+          }
+        }
+      }
+    ]
+  }
+  

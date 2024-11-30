@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "draconicevolution"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fluxnetworks"
+        }
+      ],
+      "recipe": {
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+          "item": "fluxnetworks:flux_dust"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:ender_eye"
+          },
+          {
+            "item": "minecraft:ender_eye"
+          },
+          {
+            "tag": "forge:gems/diamond"
+          },
+          {
+            "item": "minecraft:redstone"
+          }
+        ],
+        "result": {
+          "item": "fluxnetworks:flux_dust",
+          "count": 32
+        },
+        "tier": "DRACONIC",
+        "total_energy": 50000
+      }
+    }
+  ]
+}

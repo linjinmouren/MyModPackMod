@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipe": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "notamod"
+        }
+      ],
+      "recipe": {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "modpack:cant_crafting"
+          },
+          {
+            "item": "modpack:cant_crafting"
+          }
+        ],
+        "results": [
+          {
+            "item": "create:cogwheel"
+          }
+        ]
+      }
+    }
+  ]
+}

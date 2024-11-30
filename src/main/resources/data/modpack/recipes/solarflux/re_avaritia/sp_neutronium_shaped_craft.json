@@ -1,0 +1,57 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "avaritia"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "solarflux"
+        }
+      ],
+      "recipe": {
+        "type": "avaritia:shaped_table",
+        "category": "equipment",
+        "key": {
+          "C": {
+            "item": "avaritia:crystal_matrix_ingot"
+          },
+          "I": {
+            "item": "avaritia:neutron_ingot"
+          },
+          "S": {
+            "item": "solarflux:sp_8"
+          },
+          "N": {
+            "item": "avaritia:neutron_nugget"
+          },
+          "P": {
+            "item": "avaritia:neutron_pile"
+          },
+          "A": {
+            "item": "avaritia:infinity_catalyst"
+          }
+        },
+        "pattern": [
+          "  II II  ",
+          " ICCSCCI ",
+          "IC  N  CI",
+          "IC PPP CI",
+          " SNPAPNS ",
+          "IC PPP CI",
+          "IC  N  CI",
+          " NCCSCCI ",
+          "  II II  "
+        ],
+        "result": {
+          "item": "solarflux:sp_avaritia.neutronium",
+          "count": 2
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

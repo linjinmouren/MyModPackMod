@@ -1,0 +1,47 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "steampowered"
+        }
+      ],
+      "recipe": {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          " AAA ",
+          "ACPCA",
+          "APLPA",
+          "ACPCA",
+          " AAA "
+        ],
+        "key": {
+          "P": {
+            "tag": "minecraft:planks"
+          },
+          "L": {
+            "item": "steampowered:bronze_flywheel"
+          },
+          "A": {
+            "item": "modpack:cast_iron"
+          },
+          "C": {
+            "item": "steampowered:cast_iron_cogwheel"
+          }
+        },
+        "result": {
+          "item": "steampowered:cast_iron_flywheel",
+          "count": 1
+        }
+      }
+    }
+  ]
+}
+
+
