@@ -27,7 +27,7 @@ public class ModPack {
         ModCreativeModeTab.register(modEventBus);       //Register Mod Creative Tab
         modEventBus.register(new FluxNetworks());       //Register FluxNetworks Config Writer
         modEventBus.register(new SolarFlux());          //Register Custom Solar Panels
-        modEventBus.register(new ModDownloader());
+        //modEventBus.register(new ModDownloader());
         modEventBus.addListener(ModPackConfig::reload);
     }
 }
